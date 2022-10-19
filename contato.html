@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title> Contato-Barbearia Alura</title>
+ <link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+     <header>
+      <div class="caixa">
+      <h1> <img src="logo.png" alt="barbearia"></h1>
+       <nav>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produto.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+         </ul>
+         </nav>
+         </div>
+       </header>
+       <main>
+<form>
+    <label for>Nome e sobrenome </label>
+    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="seu  nome ">
+
+    <label for="email"> E-mail</label>
+    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@.com"
+
+</fieldset>
+
+    <label for="telefone"> Telefone </label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+ <fieldset>
+    <legend> Como prefere o nosso contato? </legend>
+    <label  for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+     Email</label>
+
+    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+     Telefone</label>
+
+    <label for="radio-whatsapp"><input type="radio" name= "contato"value="whatsapp" id="radio-whatsapp" checked>
+    Whatsapp </label>
+
+ </fieldset>
+ <fieldset>
+   <legend> Qual horario prefere ser atendido?</legend>
+    <select>
+     <option>Manha</option>
+     <option>Tarde</option>
+     <option>Noite</option>
+
+    </select>
+    <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+    
+    
+    <input type="submit" value="Enviar formulario" class="enviar">
+
+</fieldset>
+</form>
+<table>
+<thead>
+  <th>Dia</th>
+  <th>Horario</th>
+ </tr>
+ <tr>
+  <th>Segunda </th>
+  <th> 08 as 18;00</th>
+
+ </thead>
+ <tbody>
+<tr>
+
+<th> Quarta</th>
+<th> 08;00 as 18;00</th>
+</tr>
+<tr>
+  <th> Sexta</th>
+  <th> 08;00 as 18;00</th>
+
+</tr>
+</tbody>
+
+
+
+</table>
+       </main>
+
+       <footer>
+        <img src="logo-branco.png" alt="imagem do  rodape">
+        <p class="copyright"> &copy; Copyright Barbearia Alura -2019
+        
+        
+        </p>
+        
+        </footer>
+        </html>

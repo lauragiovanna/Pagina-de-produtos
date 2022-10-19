@@ -1,44 +1,129 @@
+header{
+    padding: 20px 0;
+    background:#778899	
+}
+.caixa{
+   position: relative;
+    width:940px;
+    margin:0 auto;
 
-body
-{
 }
-.imagembanner{
-  widht:100%
+nav{
+    position: absolute;
+    top:110px;
+    right:0;
 }
-.principal{
-  background: #cccccc
-  padding:30%;
+nav li {
+    display: inline;
+    margin:0 0 0 15px;
 }
-.titulo-principal{
-  padding-left: 20px;
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
- .titulo-centralizado{
+
+nav a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+.produto{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.produto li{
+    display: inline-block;
+     text-align: center;
+     width: 30%;
+     vertical-align:top ;
+     margin:0 1.5%;
+     padding: 30px 20px;
+     box-sizing: border-box;
+     border: 2px black solid;
+     border-radius: 10px;
+}
+.produto li:hover{
+border-color:coral;
+}
+.produto li:active{
+border-color:aqua;        
+}
+.produto li:hover h2{
+    font-size:40px;
+}
+.produto h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.descritivo{
+    font-size: 18px;
+
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
     text-align: center;
- }
- p{
-    text-align: center;
-  }
-  
-  #missão{
-    font-size:20px
-  }
-  em strong{
-    color:red;
-  }
-  .itens {
-    font-style:italic
-  }
-  .beneficios {
-background: #ffff;
-padding: 20px;
-  }
-  
-  ul{
-   display: inline-block;
-   vertical-align: top;
-   width;20%
-   margin-right: 15%;
-  }
-  .imagembeneficios{
-    width: 50%;
-  }
+    background:url("bg.jpg");
+    padding: 40px;
+
+}
+.copyright{
+    color:bisque;
+    font-size: 13px;
+    margin:20px;
+}
+main{
+    width: 840px;
+    margin: 0  auto;
+}
+form{
+    margin: 40px  0;
+}
+form label,form legend {
+    display:block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.input-padrao{
+    display;block;
+    margin: 0 0 20px;
+    padding:10px 25px;
+    width:50%;
+}
+.checkbox{
+    margin:20px 0;
+}
+.enviar{
+width:40%;
+padding:15px  0;
+background: orange;
+font-weight: bold;
+font-size: 18px;
+border: none;
+border-radius: 5px;
+cursor:pointer;
+}
+.enviar:hover{
+    background: darkmagenta;
+    transition: 3s;
+}
+table{
+    margin:20px 0 50px;
+}
+
+thead,th{
+    background-color: pink;
+    font-weight: bold;
+
+}
+td,th{
+    border: 1px solid black;
+    padding:8px 15px ;
+}
