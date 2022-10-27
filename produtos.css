@@ -1,0 +1,80 @@
+header{
+    padding: 20px 0;
+    background:#778899	
+}
+.caixa{
+   position: relative;
+    width:940px;
+    margin:0 auto;
+
+}
+nav{
+    position: absolute;
+    top:110px;
+    right:0;
+}
+nav li {
+    display: inline;
+    margin:0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+.produto{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.produto li{
+    display: inline-block;
+     text-align: center;
+     width: 30%;
+     vertical-align:top ;
+     margin:0 1.5%;
+     padding: 30px 20px;
+     box-sizing: border-box;
+     border: 2px black solid;
+     border-radius: 10px;
+}
+.produto li:hover{
+border-color:coral;
+}
+.produto li:active{
+border-color:aqua;        
+}
+.produto li:hover h2{
+    font-size:40px;
+}
+.produto h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.descritivo{
+    font-size: 18px;
+
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background:url("bg.jpg");
+    padding: 40px;
+
+}
+.copyright{
+    color:bisque;
+    font-size: 13px;
+    margin:20px;
+}
